@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+Movie_Poster_Dataset
+logs
+*.h5
+*.csv
+*.zip
