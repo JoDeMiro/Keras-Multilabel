@@ -34,40 +34,24 @@
 
 # Table of Contents
 
-- **[Introduction](#introduction)**
+- **[Bevezetés](#Bevezetés)**
   * [Status](#status)
-  * [Todo](#todo)
-  * [Prologue](#prologue)
-- **[Git](#git)**
-  * [Merge](#git_merge)
-  * [Pull](#pull)
-  * [Push](#git_push)
-  * [Branch](#git_branch)
-  * [Commit](#git_commit)
-  * [Config](#git_config)
-- **[Jupyter](#jupyter)**
-- **[Linux](#linux)**
-  * [Disk](#linux_disk)
-  * [Network](#linux_network)
-  * [Security](#linux_security)
-  * [Utils](#linux_utils)
-- **[Table](#table)**
-- **[Services](#services)**
-- **[Tools](#tools)**
+- **[Tanulság](#Tanulság)**
+- **[Todo](#Todo)**
 
-# Introduction
+# Bevezetés
 
-  > A következő eszközöket szoktam használni a **munkám** során és most úgy gondoltam, hogy csinálok egy kis gyűjteményt a leggyakrabban kiadott parancsokról. Sajnos néha én is elfelejtem őket és hogy ne a StackOverflown keljen keresgélnem ezért ide teszem őket.
+  > Ez a kis Notebook arról szól, hogy film plakátokat megpróbála a hozzájuk tartozó 20 kategóriával párosítani. Egy egy film több kategóriához is tartozhat. Ez benne a különlegesség. A film plakátok kép formátumban vannak tárolva a hozzájuk tartozó kategóriák pedig egy szöveges fájlban vnnak tárolva. A képeket beolvasom, eltárolom öket egy Numpy tömbben. A kategóriákat is egy másik tömbben, ugyhogy klasszikus X_train, Y_train párosítás alakul ki. Ezek után történik a tanítás ahol a bemenet a három csatornás kép a kimenet pedig egy 20 kimenetű réteg minden neuronra sigmoid átviteli függvénnyel.
 
-## Status
+## Tanulság
 
-Still work in progress... :construction_worker:
+A tanulság itt annyi, hogy ilyen multilabel problémáknál hogyan kell kinéznie a kimeneti régetegnek. :construction_worker:
 
 ## Todo
 
-- [ ] Add rationale (e.g. url's, external resources)
-- [ ] Review levels of priority
-- [X] Implement argparse for different training options
-- [ ] Add evaluation results
-- [ ] Add Docker support
+- [X] Leírás (e.g. url's, external resources)
+- [X] Magyarázat
+- [X] Tanítás, Tanulási görbe
+- [X] Github
+- [X] Done
 
