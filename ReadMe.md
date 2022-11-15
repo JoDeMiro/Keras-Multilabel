@@ -35,11 +35,10 @@
 # Table of Contents
 
 - **[Bevezetés](#Bevezetés)**
-  * [Status](#status)
 - **[Tanulság](#Tanulság)**
 - **[Todo](#Todo)**
 
-# Bevezetés
+## Bevezetés
 
   > Ez a kis Notebook arról szól, hogy film plakátokat megpróbála a hozzájuk tartozó 20 kategóriával párosítani. Egy egy film több kategóriához is tartozhat. Ez benne a különlegesség. A film plakátok kép formátumban vannak tárolva a hozzájuk tartozó kategóriák pedig egy szöveges fájlban vnnak tárolva. A képeket beolvasom, eltárolom öket egy Numpy tömbben. A kategóriákat is egy másik tömbben, ugyhogy klasszikus X_train, Y_train párosítás alakul ki. Ezek után történik a tanítás ahol a bemenet a három csatornás kép a kimenet pedig egy 20 kimenetű réteg minden neuronra sigmoid átviteli függvénnyel.
 
